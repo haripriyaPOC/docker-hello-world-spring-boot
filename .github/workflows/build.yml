@@ -22,8 +22,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t YOUR_DOCKERHUB_USERNAME/docker-hello-world-spring-boot:latest .
+          docker build -t haripriya1310/docker-hello-world-spring-boot:latest .
 
       - name: Push Docker image
         run: |
-          docker push YOUR_DOCKERHUB_USERNAME/docker-hello-world-spring-boot:latest
+          docker push haripriya1310/docker-hello-world-spring-boot:latest
