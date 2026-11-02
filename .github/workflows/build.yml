@@ -3,6 +3,7 @@ name: Java Application Build and Kubernetes Deploy
 
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
