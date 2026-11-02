@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: my-dockerboot-deployment
   labels:
-    app: my-app
+    app: my-dockboot
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: my-app
+      app: my-dockboot
   template:
     metadata:
       labels:
-        app: my-app
+        app: my-dockboot
     spec:
       containers:
         - name: my-dockerboot-container
