@@ -1,6 +1,7 @@
 
 name: Java Application Build and Kubernetes Deploy
 
+
 on:
   push:
     branches:
