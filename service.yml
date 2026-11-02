@@ -4,15 +4,15 @@ kind: Service
 metadata:
   name: my-dockerboot-service
   labels:
-    app: my-app
+    app: my-dockboot
 
 spec:
   type: NodePort
 
   selector:
-    app: my-app
+    app: my-dockboot
 
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 5000
+      targetPort: 8080
